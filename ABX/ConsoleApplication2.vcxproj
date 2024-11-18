@@ -129,7 +129,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bitops.h" />
