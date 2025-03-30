@@ -9,16 +9,18 @@
 
 #include "bitwise.h"
 
-int main(void)
+int main(const int argc, const char** argv)
 {
-	// TODO: write actual testing functionality for things...
-	constexpr size_t n = 0x1234567890ABCDEF;
-	TOGGLE_ENDIAN(n);
-	for (int i = sizeof(n) * 2 - 1; i >= 0; i--)
+	char file_read_buffer[1024];
+	puts(argv[1]);
+	FILE* file = fopen(argv[1], "r");
+	if (!file)
 	{
-		const int nibble = get_nibble(&n, i);
-		printf("%c", get_hex_rep(nibble));
+		printf("An error occurred in opening the file!");
+		return errno;
 	}
+	fread(file_read_buffer, sizeof(file_read_buffer[0]), sizeof(file_read_buffer), file);
+	printf("%s", file_read_buffer);
 
 	return EXIT_SUCCESS;
 }
