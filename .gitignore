@@ -363,5 +363,6 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # CLion stuff
+.idea/
 .idea/*
 cmake*/
