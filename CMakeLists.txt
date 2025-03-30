@@ -3,4 +3,5 @@ project(abx_writer C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(abx_writer main.c)
+add_executable(abx_writer src/main.c
+		src/bitwise.c)
