@@ -368,3 +368,6 @@ FodyWeavers.xsd
 cmake*/
 .idea/editor.xml
 
+# Readmes should be changed very deliberately.
+README.md
+
