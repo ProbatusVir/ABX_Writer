@@ -366,3 +366,5 @@ FodyWeavers.xsd
 .idea/
 .idea/*
 cmake*/
+.idea/editor.xml
+
