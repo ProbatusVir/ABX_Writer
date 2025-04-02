@@ -1,0 +1,7 @@
+[package]
+authors = ["Joshua Smith <ProbatusVir@github.com>"]
+name = "ABX_Writer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

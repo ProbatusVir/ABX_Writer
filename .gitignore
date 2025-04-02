@@ -367,7 +367,12 @@ FodyWeavers.xsd
 .idea/*
 cmake*/
 .idea/editor.xml
-
+target/
 # Readmes should be changed very deliberately.
 README.md
 
+
+
+# Added by cargo
+
+/target
