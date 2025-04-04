@@ -1,4 +1,4 @@
-# This is the main branch.
+# This is the DEV branch.
 
 This project aims to write Android Binary XML files, with no dependencies, given an XML file.
 
